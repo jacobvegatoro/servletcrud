@@ -1,3 +1,7 @@
+/*
+ * Esto es un comentario
+ * */
+
 package awl.modulo4.controlador;
 
 import java.io.IOException;
@@ -58,7 +62,7 @@ public class AgregarCliente extends HttpServlet {
 		if (agregar)
 			mensaje = "El cliente ha sido agregado exitosamente.";
 		else
-			mensaje = "Ocurrió un error al procesar la solicitud";
+			mensaje = "Ocurriï¿½ un error al procesar la solicitud";
 		
 		request.setAttribute("ccmensaje", mensaje);
 		request.getRequestDispatcher("CrearCliente.jsp").forward(request, response);		
